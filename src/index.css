@@ -1,0 +1,56 @@
+.stopwatch {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.start-button,
+.stop-button,
+.reset-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.stop-button {
+    background-color: #f44336;
+    /* Red */
+}
+
+.reset-button {
+    background-color: #4c5fbd;
+    /* Blue */
+}
+
+.start-button:hover,
+.stop-button:hover,
+.reset-button:hover {
+    background-color: #45a049;
+    /* Darker green */
+}
+
+.stop-button:hover {
+    background-color: #e53935;
+    /* Darker red */
+}
+
+.reset-button:hover {
+    background-color: #314298;
+    /* Darker red */
+}
